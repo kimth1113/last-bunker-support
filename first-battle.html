@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="직접 쏘고, 재장전하며 방어선을 지키는 생존 방어 게임 라스트 벙커. 실제 공개판 시연을 보고 토스에서 첫 전투를 시작해 보세요.">
+  <meta name="theme-color" content="#131b22">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="라스트 벙커 — 첫 전투, 버틸 수 있나요?">
+  <meta property="og:description" content="직접 쏘고, 재장전하고, 다시 도전. 실제 공개판 시연과 토스 진입 안내를 확인해 보세요.">
+  <meta property="og:url" content="https://kimth1113.github.io/last-bunker-support/first-battle.html">
+  <meta property="og:image" content="https://kimth1113.github.io/last-bunker-support/marketing/20261121/first-battle-preview.jpg">
+  <meta property="og:image:alt" content="라스트 벙커 Android 공개판의 실제 첫 전투 화면">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>첫 전투, 버틸 수 있나요? | 라스트 벙커</title>
+  <style>
+    :root{color-scheme:dark;--bg:#131b22;--panel:#1c2932;--text:#edf1ef;--muted:#b6c3c8;--gold:#ead08d}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.75 system-ui,-apple-system,"Malgun Gothic",sans-serif}
+    a{color:var(--gold);text-underline-offset:4px}a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+    .wrap{max-width:1080px;margin:auto;padding:0 28px}.brand{padding:28px 0;color:var(--gold);font-weight:750;letter-spacing:.12em;font-size:14px}
+    .hero{display:grid;grid-template-columns:1.1fr 1fr;gap:70px;align-items:center;padding:18px 0 60px}.eyebrow{color:var(--gold);font-size:13px;letter-spacing:.1em}
+    h1{font-size:clamp(36px,4.8vw,59px);letter-spacing:-.06em;line-height:1.23;margin:18px 0 25px}h2{font-size:25px;letter-spacing:-.04em;line-height:1.4;margin:0 0 22px}
+    .lead{font-size:20px;color:var(--muted);word-break:keep-all;max-width:500px}.button{display:inline-block;background:var(--gold);color:#16212a;padding:13px 22px;border-radius:8px;font-weight:750;text-decoration:none;margin:16px 0}
+    figure{margin:0;max-width:330px;justify-self:center}video{display:block;width:100%;aspect-ratio:9/16;background:#0d141a;border:1px solid #42515a;border-radius:12px}figcaption{font-size:12px;line-height:1.65;color:var(--muted);margin-top:13px}
+    .guide{padding:32px;background:var(--panel);border:1px solid #3c4b54;border-radius:12px;margin-bottom:42px;scroll-margin-top:24px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;list-style:none;padding:0;margin:0}.number{display:block;color:var(--gold);font-size:13px;margin-bottom:8px}.steps strong{font-size:19px}.steps p{color:var(--muted);font-size:15px;margin:8px 0 0}
+    .notes{max-width:760px;padding-bottom:36px}.notes p{color:var(--muted);font-size:15px}.notes strong{color:var(--text)}footer{border-top:1px solid #3c4b54;padding:25px 0 35px;color:var(--muted);font-size:13px}
+    @media(max-width:720px){.wrap{padding:0 22px}.brand{padding:24px 0}.hero{grid-template-columns:1fr;gap:28px;padding:6px 0 38px}.lead{font-size:18px}figure{max-width:310px;width:100%}.guide{padding:25px 22px}.steps{grid-template-columns:1fr;gap:24px}.steps strong{font-size:18px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="brand">라스트 벙커</header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <p class="eyebrow">직접 조작하는 생존 방어 게임</p>
+          <h1 id="hero-title">첫 전투,<br>버틸 수 있나요?</h1>
+          <p class="lead">적은 기다려주지 않습니다.<br>직접 쏘고, 재장전하며<br>방어선을 지켜보세요.</p>
+          <a class="button" href="#start">토스에서 시작하는 방법</a>
+        </div>
+        <figure>
+          <video controls muted playsinline preload="metadata" aria-label="조작하지 않고 진행한 첫 전투의 20초 시연. 방어선이 무너진 뒤 무료 새 도전 화면이 표시됩니다.">
+            <source src="marketing/20261121/first-battle-20s.mp4" type="video/mp4">
+            <p>영상이 재생되지 않으면 <a href="marketing/20261121/first-battle-20s.mp4">시연 영상 파일</a>을 열어보세요.</p>
+          </video>
+          <figcaption>2026년 11월 17일 촬영한 Android Google Play 공개판 0.8.23의 실제 화면입니다. 조작 없이 진행한 시연 일부를 발췌했으며 소리는 없습니다. 토스판과 플랫폼 안내·광고 화면은 다를 수 있습니다.</figcaption>
+        </figure>
+      </section>
+      <section class="guide" id="start" aria-labelledby="start-title">
+        <h2 id="start-title">토스에서 첫 전투 시작하기</h2>
+        <ol class="steps">
+          <li><span class="number">01</span><strong>토스 앱을 열어주세요</strong><p>토스의 검색 화면으로 이동해 주세요.</p></li>
+          <li><span class="number">02</span><strong>‘라스트 벙커’ 검색</strong><p>검색 결과에서 게임을 선택해 주세요.</p></li>
+          <li><span class="number">03</span><strong>안내를 따라 첫 전투</strong><p>조준·사격·재장전을 익히고 승패 결과까지 도전해 보세요.</p></li>
+        </ol>
+      </section>
+      <section class="notes" aria-labelledby="notes-title">
+        <h2 id="notes-title">시작하기 전에</h2>
+        <p><strong>게임에는 광고가 포함됩니다.</strong> 패배 후에는 광고를 보지 않고 1일차부터 새 도전을 시작할 수 있습니다. 광고를 통한 재시도는 별도의 선택입니다.</p>
+        <p>이 페이지는 개발자가 직접 작성한 게임 소개입니다. 사진·음성·게임 저장 파일을 받는 양식이나 별도 방문 분석 도구는 없습니다. 사이트 제공 과정의 접속 정보 처리는 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 개인정보처리방침</a>을 따릅니다.</p>
+      </section>
+    </main>
+    <footer>태이슨맘(Tason Mom) · <a href="mailto:kimth1113@naver.com">게임 문의</a> · <a href="privacy-0.8.21.html">Android 개인정보처리방침</a><br>소개 페이지 작성: 2026년 11월 21일</footer>
+  </div>
+</body>
+</html>
